@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Cat Photo APP
+        </title>
+        <!-- links to CSS and JS files -->
+    </head>
+    <body>
+        <h1>Cat Photo App</h1>
+        <!-- main tag is like has main content, and also used for SEO -->
+        <main>
+            <p>
+                Click <a href="https://www.pexels.com/search/cats/" target="_blank">here</a> to view more cat photos.
+            </p>
+            <a href="https://ichef.bbci.co.uk/images/ic/1376xn/p0lll1vw.jpg.webp" target = "_blank">
+                <img src="https://ichef.bbci.co.uk/images/ic/1376xn/p0lll1vw.jpg.webp" width = 70% alt = "Cats sitting">
+            </a>
+
+            <h3> 
+                Cat Lists
+            </h3>
+
+            <!-- div is widely used, so that you can write CSS to each div -->
+            <div class="lists">
+                <!-- em - emphasize (or) Italic -->
+                <p>
+                    Things cat <em>love</em>:
+                </p>
+                <!-- unordered list -->
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+    
+                <p>
+                    Things cat <strong>hate</strong>:
+                </p>
+                <!-- ordered list -->
+                <ol>
+                    <li>flea treatment</li>
+                    <li>bathing</li>
+                    <li>other cats :)</li>
+                </ol>
+            </div>
+
+
+            <form action="/submit-cat-photo">
+                <!-- adding label gives the facility that option is selected even when you select the text indoor -->
+                 <!-- radio -->
+                <label for="indoor">
+                    <input type="radio" id="indoor" name="indoor-outdoor"> indoor
+                </label>
+                <label for="outdoor">
+                    <input type="radio" id="outdoor" name="indoor-outdoor"> outdoor
+                </label> <br> 
+
+                <!-- check boxes -->
+                <label for="loving">
+                    <input id="loving" type="checkbox" name="personality"> Loving
+                </label>
+                <label for="hating">
+                    <input id="hating" type="checkbox" name="personality"> Hating
+                </label>
+                <label for="lazy">
+                    <input id="lazy" type="checkbox" name="personality" checked> Lazy
+                </label>
+
+                <br>
+                <input type="text" placeholder="enter cat url" required> <br>
+                <button type = "submit">
+                    Submit CAT
+                </button>
+            </form>
+        </main>
+
+        <footer>
+            <p> <small>
+                No Copyright - Sandeep
+            </small> </p>
+        </footer>
+    </body>
+</html>
