@@ -19,7 +19,7 @@
 - Anchor tag
     - ```<a> <\a>```
     - To hyperlink (or) link to other section of same page
-- Headings like h1, h2 .. h6 are only meant for styling but also it gives a sense of organisation of the content to browsers (or) applications that looking at html
+- Headings like h1, h2 .. h6 are only meant for styling but also it gives a sense of organisation of the content to browsers (or) applications that looking at html. (Hirarchy)
     - Ofcourse we can change how headings look using custom CSS
 - Whitespace collapsing
     - you may add lot of white spaces in your code, but that all will not be displayed after rendering the html
@@ -27,6 +27,15 @@
 - Elements
     - inline elements: not creating a new line (like ```em```, ```strong```)
     - block level elements: like ```h1``` (or) ```p```, they give line breaks
+- We can ofcourse customize images using CSS, but now a days it is recommended practise to include width and height info in html because the browser will be able to use this info.
+- You can use placeholder images when developing HTML code: https://placehold.co/
+- Semantic HTML refers to using HTML tags that convey meaning about the content both to the browser and to humans (developers, screen readers, SEO).
+- The following have no semantic meaning in html
+    - ```<div>```
+    - ```<span>```
+    - ```<b>```
+    - ```<i>```
+    - ```<br>```
 
 | | |
 |:--|:--|
@@ -41,4 +50,10 @@
 | ``` <abbr> <\abbr> ``` | Abbrevation |
 | - ordered lists ```<ol> <\ol>``` <br> - unordered lists ```<ul> <\ul>``` <br> - descriptive lists ```<dl> <\dl>``` | Lists |
 | Referencing (or) Linking | We will have two types: i) relative ii) absolute <br> We can link to external links (or) files on same server (or) to content in same page (basically internal link)|
-| ```<nav> <\nav>``` | Navigation bar |
+| ```<nav> </nav>``` | Navigation bar |
+| ```<img>``` | Image (lazy (or) eager loading) |
+| ```figure``` | |
+| ```header``` | Top section of a page or article |
+| ```main``` | main content area |
+| ```<time> </time>``` | |
+| ```<time> </time>``` | Time semantic meaning |

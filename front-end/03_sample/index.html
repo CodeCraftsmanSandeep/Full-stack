@@ -11,24 +11,27 @@
         <link rel="stylesheet" href="styles.css" type="text/css">
     </head>
     <body>
-        <h1>Hello World!!</h1>
-        <!-- Horizontal rule -->
-
-        <nav>
-            <ul>
-                <li>
-                    <!-- home page -->
-                    <!-- / to go to root -->
-                     <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#vacation">My Vacation</a>
-                </li>
-                <li>
-                    <a href="#lists-in-html">Lists in html</a>
-                </li>
-            </ul>
-        </nav>
+        <header>
+            <h1>My Hello World!! website</h1>
+            
+            <!-- Horizontal rule -->
+            <nav aria-labelledby=""primary-navigation>
+                <p id="primary-navigation">Primary navigation</p>
+                <ul>
+                    <li>
+                        <!-- home page -->
+                        <!-- href="/" means: go to root -->
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#vacation">My Vacation</a>
+                    </li>
+                    <li>
+                        <a href="#lists-in-html">Lists in html</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <hr>
 
 
@@ -44,19 +47,31 @@
         <!-- little bit of space: nbsp -->
         <hr>
 
-        <section id="vacation">
-            <h2>I wanna go for vacation</h2>
-            <h4>I did lot of work this week, so let me take a break.</h4>
-            <p>I think beach would be a better place.</p>
-            <!-- address tag -->
-            <p>I would also like to go here:
-                <address>
-                    Manhattan, USA <br>
-                    Dubai          <br>
-                    Singapore     
-                </address>
-            </p>
-        </section>
+        <!-- main area of the article -->
+        <main>
+            <section id="vacation">
+                <h2>I wanna go for vacation</h2>
+                <h4>I did lot of work this week, so let me take a break.</h4>
+                <p>I think beach would be a better place.</p>
+                <!-- address tag -->
+                <p>I would also like to go here:
+                    <address>
+                        Manhattan, USA <br>
+                        Dubai          <br>
+                        Singapore     
+                    </address>
+                </p>
+
+                <figure>
+                    <img src="assets/img/vacation.jpg" alt="Vacation image" title="Beach" width="75%" loading="lazy">
+                    <figcaption>
+                        Marina Beach
+                    </figcaption>
+                </figure>
+                <!-- the browser will load that image only when it is about to show that. -->
+                <!--  by default it is eager loading-->
+            </section>
+        </main>
 
         <hr>
 
@@ -64,38 +79,63 @@
         <p><abbr title="Mozilla Development Network"> <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr> has lot of documentations which can help us understand web development easily</p>
         <hr>
 
-        <section id="lists-in-html">
+        <article id="lists-in-html">
             <h3>Lists in HTML</h3>
 
-            <h4>Ordered Lists</h4>
-            <ol>
-                <li>HTML = Hyper Text Markup Language</li>
-                <li>CSS = Cascading Styling Sheets</li>
-                <li>JS = Java Script</li>
-            </ol>
-    
-            <h4>Un-ordered Lists</h4>
-            <ul>
-                <li>Book 1: Atomic Habits</li>
-                <li>Book 2: Focus on what matters</li>
-                <li>Book 3: Own your body: A Doctor's life saving tips</li>
-            </ul>
-    
-            <h4>Description Lists</h4>
-            <dl>
-                <!-- dt: description term -->
-                <!-- dd: description details -->
-                <dt>North Pole</dt>
-                <dd>I hear this is <strong>cold</strong></dd>
-    
-                <dt>South Pole</dt>
-                <dd>This is also <strong>cold</strong></dd>
-    
-                <dt>America</dt>
-                <dd>This is a better place</dd>
-            </dl>
-        </section>
+            <section>
+                <h4>Ordered Lists</h4>
+                <ol>
+                    <li>HTML = Hyper Text Markup Language</li>
+                    <li>CSS = Cascading Styling Sheets</li>
+                    <li>JS = Java Script</li>
+                </ol>
+            </section>
+        
+            <section>
+                <h4>Un-ordered Lists</h4>
+                <ul>
+                    <li>Book 1: Atomic Habits</li>
+                    <li>Book 2: Focus on what matters</li>
+                    <li>Book 3: Own your body: A Doctor's life saving tips</li>
+                </ul>
+            </section>
 
+            <section>
+                <h4>Description Lists</h4>
+                <dl>
+                    <!-- dt: description term -->
+                    <!-- dd: description details -->
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>cold</strong></dd>
+        
+                    <dt>South Pole</dt>
+                    <dd>This is also <strong>cold</strong></dd>
+        
+                    <dt>America</dt>
+                    <dd>This is a better place</dd>
+                </dl>
+                <aside>
+                    <details>
+                        <summary>
+                            Guess the number of hours I work?
+                        </summary>
+                        <p>I code for <mark>10 hours</mark> a day. <time datetime="PT5H">5 hours</time> from <time datetime="08:00">8 AM</time> to <time datetime="1:00">1 PM</time>.</p>
+                    </details>
+                </aside>
+            </section>
+
+
+        </article>
+
+        <hr>
+        <figure>
+            <figcaption>An Example of HTML5 code</figcaption>
+            <p>
+                <code>
+                    &lth1&gtHello World&lt/h1&gt
+                </code>
+            </p>
+        </figure>
         <hr>
         <ul>
             <!-- Download link -->
@@ -118,7 +158,9 @@
         </ul>
         <hr>
         <!-- less than symbol -->
-        &lt;&lt;&lt; &copy; Sandeep &gt;&gt;&gt;
-        <p> <a href="#">Back to top</a></p>
     </body>
+    <footer>
+        &lt;&lt;&lt; &copy; <a href="about.html">Sandeep</a> &gt;&gt;&gt;
+        <p> <a href="#">Back to top</a></p>
+    </footer>
 </html>
