@@ -29,13 +29,18 @@
     - block level elements: like ```h1``` (or) ```p```, they give line breaks
 - We can ofcourse customize images using CSS, but now a days it is recommended practise to include width and height info in html because the browser will be able to use this info.
 - You can use placeholder images when developing HTML code: https://placehold.co/
-- Semantic HTML refers to using HTML tags that convey meaning about the content both to the browser and to humans (developers, screen readers, SEO).
-- The following have no semantic meaning in html
-    - ```<div>```
-    - ```<span>```
-    - ```<b>```
-    - ```<i>```
-    - ```<br>```
+- Semantic:
+    - Semantic HTML refers to using HTML tags that convey meaning about the content both to the browser and to humans (developers, screen readers, SEO). Use semantic elements as much as possible
+        -  ```main```
+        - ```header```
+        - ```section```
+        - ```article```
+    - The following have no semantic meaning in html
+        - ```<div>```
+        - ```<span>```
+        - ```<b>```
+        - ```<i>```
+        - ```<br>```
 
 | | |
 |:--|:--|
