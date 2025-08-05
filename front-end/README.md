@@ -36,4 +36,9 @@
 | ``` <em> <\em>``` | Emphasize |
 | ``` <strong> <\strong> ``` | Importance |
 | ``` <br> ``` | Break line |
-| HTML chracter codes | [Source](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references) | 
+| [HTML character codes](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references) | like ```&nbsp``` |
+| ``` <address> <\address> ``` | Address |
+| ``` <abbr> <\abbr> ``` | Abbrevation |
+| - ordered lists ```<ol> <\ol>``` <br> - unordered lists ```<ul> <\ul>``` <br> - descriptive lists ```<dl> <\dl>``` | Lists |
+| Referencing (or) Linking | We will have two types: i) relative ii) absolute <br> We can link to external links (or) files on same server (or) to content in same page (basically internal link)|
+| ```<nav> <\nav>``` | Navigation bar |

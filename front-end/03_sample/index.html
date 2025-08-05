@@ -13,7 +13,25 @@
     <body>
         <h1>Hello World!!</h1>
         <!-- Horizontal rule -->
+
+        <nav>
+            <ul>
+                <li>
+                    <!-- home page -->
+                    <!-- / to go to root -->
+                     <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#vacation">My Vacation</a>
+                </li>
+                <li>
+                    <a href="#lists-in-html">Lists in html</a>
+                </li>
+            </ul>
+        </nav>
         <hr>
+
+
 
         <h2>
             Hello Universe!!
@@ -25,23 +43,82 @@
         </p>
         <!-- little bit of space: nbsp -->
         <hr>
-        <h3>Let us go for vacation</h3>
-        <h4>I did lot of work this week</h4>
-        <p>I think beach would be better</p>
-        <!-- address tag -->
-        <p>I would also like to go here:
-            <address>
-                Manhattan, USA <br>
-                Dubai          <br>
-                Singapore      <br>
-            </address>T
-        </p>
+
+        <section id="vacation">
+            <h2>I wanna go for vacation</h2>
+            <h4>I did lot of work this week, so let me take a break.</h4>
+            <p>I think beach would be a better place.</p>
+            <!-- address tag -->
+            <p>I would also like to go here:
+                <address>
+                    Manhattan, USA <br>
+                    Dubai          <br>
+                    Singapore     
+                </address>
+            </p>
+        </section>
+
         <hr>
 
         <!-- Abbreviation tag: abbr -->
-        <p><abbr title="Mozilla Development Network">MDN</abbr> has lot of documentations which can help us understand web development easily</p>
+        <p><abbr title="Mozilla Development Network"> <a href="https://developer.mozilla.org/en-US/">MDN</a></abbr> has lot of documentations which can help us understand web development easily</p>
+        <hr>
+
+        <section id="lists-in-html">
+            <h3>Lists in HTML</h3>
+
+            <h4>Ordered Lists</h4>
+            <ol>
+                <li>HTML = Hyper Text Markup Language</li>
+                <li>CSS = Cascading Styling Sheets</li>
+                <li>JS = Java Script</li>
+            </ol>
+    
+            <h4>Un-ordered Lists</h4>
+            <ul>
+                <li>Book 1: Atomic Habits</li>
+                <li>Book 2: Focus on what matters</li>
+                <li>Book 3: Own your body: A Doctor's life saving tips</li>
+            </ul>
+    
+            <h4>Description Lists</h4>
+            <dl>
+                <!-- dt: description term -->
+                <!-- dd: description details -->
+                <dt>North Pole</dt>
+                <dd>I hear this is <strong>cold</strong></dd>
+    
+                <dt>South Pole</dt>
+                <dd>This is also <strong>cold</strong></dd>
+    
+                <dt>America</dt>
+                <dd>This is a better place</dd>
+            </dl>
+        </section>
+
+        <hr>
+        <ul>
+            <!-- Download link -->
+            <li>
+                Dowload an <a href="html5.png" download>HTML5 favicon</a>
+            </li>
+            <!-- Email link -->
+            <!-- But now a days it is not recommended to use this, as this can lead to people get your email to spam you -->
+            <li>
+                Contact me at <a href="mailto:random@email.com">my email</a>
+            </li>
+            <!-- Phone number -->
+             <li> 
+                Dial <a href="tel:+1234567890">my phone number</a>
+             </li>
+            <!-- Opening in a new tab -->
+            <li>
+                Open <a href="https://www.google.com">Google</a>
+            </li>
+        </ul>
         <hr>
         <!-- less than symbol -->
         &lt;&lt;&lt; &copy; Sandeep &gt;&gt;&gt;
+        <p> <a href="#">Back to top</a></p>
     </body>
 </html>
