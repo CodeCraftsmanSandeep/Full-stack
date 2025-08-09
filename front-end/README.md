@@ -9,19 +9,6 @@
 ### Notes
 #### HTML
 
-- Attributes
-    - ```src``` is attribute in ```<img src = '...'>```
-- Anchor tag
-    - ```<a> <\a>```
-    - To hyperlink (or) link to other section of same page
-- Headings like h1, h2 .. h6 are only meant for styling but also it gives a sense of organisation of the content to browsers (or) applications that looking at html. (Hirarchy)
-    - Ofcourse we can change how headings look using custom CSS
-- Whitespace collapsing
-    - you may add lot of white spaces in your code, but that all will not be displayed after rendering the html
-    - you will have to use tags
-- Elements
-    - inline elements: not creating a new line (like ```em```, ```strong```)
-    - block level elements: like ```h1``` (or) ```p```, they give line breaks
 - We can ofcourse customize images using CSS, but now a days it is recommended practise to include width and height info in html because the browser will be able to use this info.
 - You can use placeholder images when developing HTML code: https://placehold.co/
 - Semantic:
@@ -42,7 +29,8 @@
 | Syntax / Term | Sweet note 📝 |
 |:--|:--|
 | ```<hr>``` | Horizontal line |
-| ```<h1> <\h1>``` to ```<h6> <\h6>``` | Headings | 
+| ```<h1> <\h1>``` to ```<h6> <\h6>``` | Headings + Semantic meaning (for SEO) + Organisation of content | 
+| ```html <a> <\a> ``` | Anchor tag: to link |
 | ``` <p> <\p>``` | Paragraph
 | ``` <em> <\em>``` | Emphasize |
 | ``` <strong> <\strong> ``` | Importance |
@@ -62,3 +50,5 @@
 | ```<form> </form>``` | Form stuff |
 | ```<fieldset> </fieldset>``` | Grouping widgets in form |
 | ```<legend> </legend>``` | Title of the form |
+| Elements |     - inline elements: not creating a new line (like ```em```, ```strong```) <br> - block level elements: like ```h1``` (or) ```p```, they give line breaks |
+| Whitespace collapsing | spaces in code are ignored |
