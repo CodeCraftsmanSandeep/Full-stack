@@ -30,9 +30,7 @@
 |:--|:--|
 | ```<hr>``` | Horizontal line |
 | ```<h1> <\h1>``` to ```<h6> <\h6>``` | Headings + Semantic meaning (for SEO) + Organisation of content | 
-| ```html 
-<a><\a> 
-``` | Anchor tag: to link |
+| `<a><\a>` | Anchor tag: to link |
 | ``` <p> <\p>``` | Paragraph
 | ``` <em> <\em>``` | Emphasize |
 | ``` <strong> <\strong> ``` | Importance |
