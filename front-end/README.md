@@ -52,3 +52,4 @@
 | ```<legend> </legend>``` | Title of the form |
 | Elements |     - inline elements: not creating a new line (like ```em```, ```strong```) <br> - block level elements: like ```h1``` (or) ```p```, they give line breaks |
 | Whitespace collapsing | spaces in code are ignored |
+| ```<span> <\span>```  | - generic inline container <br> - No semantic meaning <br> - used for grouping (or) targeting |

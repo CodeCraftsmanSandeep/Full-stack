@@ -1,3 +1,5 @@
+<!-- This is practise code for html forms -->
+<!-- Lot of cool stuff 😎 regarding forms -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -102,6 +104,20 @@
             </p>
         </fieldset>
     </form>
+
+    <!-- multiple labels for same form control -->
+    <!-- but multiple labels confuse assistive technologies -->
+    <!-- so do not use it, preferred way to use is one label for one form control -->
+    <form>
+        <fieldset>
+            <legend>Required feilds are followed by *</legend>
+            <label for="username">Name:</label>
+            <label for="username"><span aria-label="required">*</span></label>
+            <input id="username" type="text" name="username" required>
+        </fieldset>
+    </form>
+
+
 </main>
 <footer>
 
