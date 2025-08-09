@@ -8,12 +8,7 @@
 --
 ### Notes
 #### HTML
-- Tags
-    - Opening tag
-    - Closing tag
-- Elements
-    - Container elements (like ```<h1> <\h1>```)
-    - Standalone elements (like ```<!DOCTYPE html>```, ```<input>```)
+
 - Attributes
     - ```src``` is attribute in ```<img src = '...'>```
 - Anchor tag
@@ -41,6 +36,9 @@
         - ```<b>```
         - ```<i>```
         - ```<br>```
+- forms:
+    - **form validation:** checking whether the input entered is valid or not
+    - 
 
 | | |
 |:--|:--|
@@ -62,3 +60,5 @@
 | ```main``` | main content area |
 | ```<time> </time>``` | |
 | ```<time> </time>``` | Time semantic meaning |
+| ```<form> </form>``` | Form stuff |
+|
