@@ -38,9 +38,8 @@
         - ```<br>```
 - forms:
     - **form validation:** checking whether the input entered is valid or not
-    - 
 
-| | |
+| Syntax / Term | Sweet note 📝 |
 |:--|:--|
 | ```<hr>``` | Horizontal line |
 | ```<h1> <\h1>``` to ```<h6> <\h6>``` | Headings | 
@@ -61,4 +60,5 @@
 | ```<time> </time>``` | |
 | ```<time> </time>``` | Time semantic meaning |
 | ```<form> </form>``` | Form stuff |
-|
+| ```<fieldset> </fieldset>``` | Grouping widgets in form |
+| ```<legend> </legend>``` | Title of the form |
