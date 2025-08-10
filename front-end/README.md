@@ -25,24 +25,26 @@
         - ```<br>```
 - forms:
     - **form validation:** checking whether the input entered is valid or not
+- Buttons always behave the same whether you use a `<button>` element or an `<input>` element.
+
 
 | Syntax / Term | Sweet note 📝 |
 |:--|:--|
 | ```<hr>``` | Horizontal line |
 | ```<h1> <\h1>``` to ```<h6> <\h6>``` | Headings + Semantic meaning (for SEO) + Organisation of content | 
-| `<a><\a>` | Anchor tag: to link |
 | ``` <p> <\p>``` | Paragraph
 | ``` <em> <\em>``` | Emphasize |
+| - ordered lists ```<ol> <\ol>``` <br> - unordered lists ```<ul> <\ul>``` <br> - descriptive lists ```<dl> <\dl>``` | Lists |
 | ``` <strong> <\strong> ``` | Importance |
 | ``` <br> ``` | Break line |
+| `<a><\a>` | Anchor tag: to link |
 | [HTML character codes](https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references) | like ```&nbsp``` |
 | ``` <address> <\address> ``` | Address |
 | ``` <abbr> <\abbr> ``` | Abbrevation |
-| - ordered lists ```<ol> <\ol>``` <br> - unordered lists ```<ul> <\ul>``` <br> - descriptive lists ```<dl> <\dl>``` | Lists |
 | Referencing (or) Linking | We will have two types: i) relative ii) absolute <br> We can link to external links (or) files on same server (or) to content in same page (basically internal link)|
 | ```<nav> </nav>``` | Navigation bar |
 | ```<img>``` | Image (lazy (or) eager loading) |
-| ```figure``` | |
+| `<figure> </figure>`| |
 | ```header``` | Top section of a page or article |
 | ```main``` | main content area |
 | ```<time> </time>``` | |
@@ -53,3 +55,5 @@
 | Elements |     - inline elements: not creating a new line (like ```em```, ```strong```) <br> - block level elements: like ```h1``` (or) ```p```, they give line breaks |
 | Whitespace collapsing | spaces in code are ignored |
 | ```<span> <\span>```  | - generic inline container <br> - No semantic meaning <br> - used for grouping (or) targeting |
+| ```<button> <\button>``` | - You want button? then use this |
+

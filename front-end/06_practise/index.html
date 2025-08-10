@@ -1,3 +1,6 @@
+<!-- This is learning how to work more with html forms.
+  isn't that cool!!
+-->
 <!DOCTYPE html>
 <html land="en">
 <head>
@@ -12,5 +15,114 @@
 </head>
 <body>
 
+    <form>
+        <fieldset>
+            <legend>Choose what you like?</legend>
+            <ul>
+                <li>
+                    <label for="clients">Clients</label>
+                    <input type="radio" name="interests" id="clients">
+                </li>
+                <li>
+                    <label for="books">Books</label>
+                    <input type="radio" name="interests" id="books" checked>
+                    <!-- Without books it would be hard to communicate knowledge within the humanity -->
+                </li>
+                <li>
+                    <label for="gym">Gym</label>
+                    <input type="radio" name="interests" id="gym">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Temporary text</legend>
+            <label for="comment">Single Line Text Field:</label>
+            <input type="text" class="text" id="comment" placeholder="Type your comment">
+            <br>
+
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+
+            <!-- the hidden input should not have an associated label -->
+            <!-- the hidden value can be passed to the server, but thes user will not directly know that this info is going -->
+            <!-- one useful example: sending timestamp to the server, the timestamp can be used for various purposes like data analysis + customer engagement + etc.. -->
+            <input type="hidden" id="timestamp" name="timestamp" value="1234567890">
+            <br>
+        </fieldset>
+
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Some kinds of businesses</legend>
+            <ul>
+                <li>
+                    <label for="researcher">Researcher</label>
+                    <input type="checkbox" id="researcher" name="interesting-jobs"> 
+                </li>
+                <li>
+                    <label for="freelancer">Freelancer</label>
+                    <input type="checkbox" id="freelancer" name="interesting-jobs">
+                </li>
+                <li>
+                    <label for="real-estate">Real Estate</label>
+                    <input type="checkbox" id="real-estate" name="interesting-jobs">
+                </li>
+                <li>
+                    <label for="food-business">Food Business</label>
+                    <input type="checkbox" id="food-business" name="interesting-jobs">
+                </li>
+            </ul>
+
+            <!-- we can see three kinds of buttons below -->
+            <!-- submit button -->
+            <button type="submit">
+                This is a <strong>submit button</strong>
+            </button>
+            <!-- or -->
+            <input type="submit" value="This is a submit button">
+            <br>
+
+            <!-- reset button -->
+            <!-- only one form-associated element in a document can have this attribute apecified -->
+            <button type="reset" autofocus>
+                This is a <strong>reset button</strong>
+            </button>
+            <!-- or --> 
+            <!-- just an example disabling the button -->
+            <input type="reset" value="This is a reset button" disabled>
+            <br>
+
+            <!-- button buttton!! -->
+            <button type="button">
+                This is useless unless you write JS code
+            </button>
+            <!-- or -->
+            <input type="button" value="This is useless unless you write JS code">
+            <br> <br>
+
+            <!-- this is image button -->
+            <!-- when you click somewhere in image, it sens X and Y coordinate -->
+            <input type="image" alt="Click me!" src="assets/img/vacation.jpg" width="300" height="280">
+            <br>
+
+            <!-- file picker widget -->
+            <!-- the following widget accepts images -->
+            <label for="file">Upload file</label>
+            <input type="file" name="file" id="file" accept="image/*" multiple>
+            <br>
+
+
+        </fieldset>
+    </form>
+
+    <footer>
+        <!-- I have full right of my code :-) -->
+        &lt;&lt;&lt; &copy; Sandeep &gt;&gt;&gt;
+    </footer>
 </body>
 </html>
