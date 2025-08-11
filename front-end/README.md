@@ -1,9 +1,9 @@
 
-| | | 
-|:--|:--|
-| HTML | Structure |
-| CSS  | Styling   |
-| JSS  | Functionality |
+| | |  | 
+|:--|:--|:--|
+| HTML | Structure, (Skeleton) | Hyper Text Markup Language | specify the web page content and its structure. |
+| CSS  | Styling, (Skin) | Cascading Style Sheets | specify styling and layout information. |
+| JS | Functionality, (Brain) | Java Script | specify the behavior of interactive parts of the web page. |
 
 --
 ### Notes
@@ -58,3 +58,9 @@
 | ```<button> </button>``` | - You want button? then use this |
 | `<progress> </progress>` | progress bar |
 | `<meter> </meter>` | meter |
+
+
+------
+## notes
+- dependencies for styling in web forms https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms 
+- need of CSS: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
