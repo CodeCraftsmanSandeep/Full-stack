@@ -7,18 +7,16 @@
 			body {
 				background-color: black;
 				color: white;
+				text-align: center;
+			}
+
+			label,
+			output {
+				display: block;
 			}
 		</style>
-		<script>
-			const price = document.querySelector("#price");
-			const output = document.querySelector(".price-output");
-
-			output.textContent = price.value;
-
-			price.addEventListener("input", () => {
-				output.textContent = price.value;
-			});
-		</script>
+		<!-- Good that I learned about defer -->
+		<script src="scrtipt.js" defer></script>
 	</head>
 	<body>
 		<form>
@@ -65,17 +63,51 @@
 				max="500000"
 				step="1000"
 				value="250000" />
-			<output ckass="price-output" for="price"></output>
+			<output class="price-output" for="price"></output>
+			<br />
+			<br />
 
 			<!-- date -->
+			<!-- step is not working as expected, some articles on stack overflow also say this -->
+			<label for="date">Enter Date:</label>
+			<input
+				type="date"
+				name="date"
+				id="date"
+				min="2024-06-01"
+				max="2025-08-31"
+				step="2" />
+			<br />
+			<br />
 
 			<!-- datetime-local -->
+			<label for="datetime">Enter data time local:</label>
+			<input type="datetime-local" name="datetime" id="datetime" />
+			<br />
+			<br />
 
 			<!-- month -->
+			<label for="month">Enter month:</label>
+			<input type="month" name="month" id="month" />
+			<br />
+			<br />
 
+			<!-- time -->
+			<label for="time">Enter time of your birth</label>
+			<input type="time" name="time" id="time" />
+			<br />
+			<br />
 
-			<!--  -->
+			<!-- pick a week -->
+			<label for="week">Enter week:</label>
+			<input type="week" name="week" id="week" />
+			<br />
+			<br />
 
+			<!-- pick a color -->
+			<label for="color">Choose color:</label>
+			<input type="color" name="color" id="color" />
 		</form>
 	</body>
+	<script></script>
 </html>
