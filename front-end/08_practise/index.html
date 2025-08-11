@@ -1,0 +1,91 @@
+<!-- some cool options instead of using same input tag always -->
+<!-- we need something different right all the time? -->
+<!-- https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Other_form_controls -->
+<!DOCTYPE html>
+<html lang="em">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			body {
+				background-color: black;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>textarea tag</legend>
+				<!-- text area stuff -->
+				<label for="comment">Enter Comment:</label>
+				<textarea
+					name="comment"
+					id="comment"
+					cols="50"
+					rows="10"
+					placeholder="I love coding!"></textarea>
+				<br />
+			</fieldset>
+			<br />
+
+			<!-- drop down controls -->
+			<!-- drop down controls save space on website -->
+			<!-- select box and auto complete box -->
+			<fieldset>
+				<legend>select tag</legend>
+				<label for="operating_systems"
+					>What OS you want to work with?</label
+				>
+				<!-- size by default is set to value 1 when there is no multiple -->
+				<select
+					name="operating_systems"
+					id="operating_systems"
+					size="4"
+					multiple>
+					<optgroup label="macOS">
+						<option value="macOS_10">mac OS 10</option>
+						<option value="macOS_11" selected>mac OS 11</option>
+						<!-- macOS looks nice -->
+						<!-- may be because of its retina display and not much because of OS -->
+						<!-- not sure -->
+					</optgroup>
+
+					<optgroup label="linux">
+						<option value="kaliLinux">Kali Linux</option>
+						<option value="ubuntuLinux">Ubuntu Linux</option>
+					</optgroup>
+
+					<optgroup label="windows">
+						<option value="windows10">Windows 10</option>
+						<option value="windows11">Windows 11</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<br />
+
+			<fieldset>
+				<legend>Autocomplete box</legend>
+				<label for="devices">What is your fav device?</label>
+				<input type="text" name="devices" id="devices" list="suggestion_list">
+				<datalist id="suggestion_list">
+					<option>Mac Laptop</option>
+					<option>Dell Laptop</option>
+					<option>iPad</option>
+					<option>Air Pods</option>
+				</datalist>
+			</fieldset>
+			<br>
+
+			<fieldset>
+				<legend>meter </legend>
+				<meter min="0" max="100" value="76" low="33" high="66" optimum="0">75</meter>
+			</fieldset>
+
+			<fieldset>
+				<legend>progress bar</legend>
+				<progress max="100" value="75">75/100</progress>
+			</fieldset>
+		</form>
+	</body>
+</html>
