@@ -26,7 +26,12 @@
 - forms:
     - **form validation:** checking whether the input entered is valid or not
 - Buttons always behave the same whether you use a `<button>` element or an `<input>` element.
-
+- CMS: Content management system
+    - Examples: WordPress
+- Types of adding CSS:
+    1) Internal CSS
+    2) External CSS
+    3) In-line CSS
 
 | Syntax / Term | Sweet note 📝 |
 |:--|:--|

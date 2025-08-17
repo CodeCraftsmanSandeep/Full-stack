@@ -1,3 +1,35 @@
 h1 {
-    color: red;
+	color: red;
+}
+.special {
+	color: orange;
+	font-weight: bold;
+}
+li em {
+	color: rebeccapurple;
+}
+
+h1 + p {
+	font-size: 200%;
+}
+
+a:link {
+	font-size: 60%;
+	color: blue;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+    /* here: removing the under line */
+    text-decoration: none;
+}
+
+/* special inside p which comes just after an h1 */
+h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
 }
