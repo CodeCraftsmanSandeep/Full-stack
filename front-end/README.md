@@ -5,7 +5,7 @@
 | CSS  | Styling, (Skin) | Cascading Style Sheets | specify styling and layout information. |
 | JS | Functionality, (Brain) | Java Script | specify the behavior of interactive parts of the web page. |
 
---
+----
 ### Notes
 #### HTML
 
@@ -28,10 +28,6 @@
 - Buttons always behave the same whether you use a `<button>` element or an `<input>` element.
 - CMS: Content management system
     - Examples: WordPress
-- Types of adding CSS:
-    1) Internal CSS
-    2) External CSS
-    3) In-line CSS
 
 | Syntax / Term | Sweet note 📝 |
 |:--|:--|
@@ -63,6 +59,19 @@
 | ```<button> </button>``` | - You want button? then use this |
 | `<progress> </progress>` | progress bar |
 | `<meter> </meter>` | meter |
+
+------
+#### CSS
+
+| Stuff | Description | 
+|:---|:---|
+| Types of adding CSS: | 1) Internal CSS <br> 2) External CSS <br> 3) In-line CSS |
+| shortand properties | like `padding: 10px 15px 15px 5px;`, basically top right bottom left|
+| ```calc()``` | Allow calculations |
+| `rotate()` | | 
+| `@rules()` | - media query `@media` |
+
+
 
 
 ------
