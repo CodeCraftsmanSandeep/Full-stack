@@ -1,0 +1,42 @@
+h1 {
+    color: hotpink;
+    text-align: center;
+    border-bottom: dotted 7px purple;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    color: grey;
+    text-decoration: green wavy underline;
+    padding-top: 1px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details table {
+    border-collapse: collapse;
+    border: solid 5px;
+    background-color: wheat;
+}
+
+.contact-details td, th{
+    padding: 7px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content p, ul {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.main-content p {
+    text-decoration-line: underline;
+}
