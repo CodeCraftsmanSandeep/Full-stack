@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flexbox: morden way of layouting content</title>
+        <style>
+			body {
+				background-color: black;
+				color: white;
+			}
+			.container {
+				background-color: rgb(100, 65, 99);
+				height: 100vh;
+				border: 5px solid yellow;
+				display: flex;
+				flex-direction: row;
+				/* means main axis is row the items are moving towards row */
+				justify-content: space-around;
+				align-items: center;
+			}
+			.box {
+				padding: 10px;
+				height: 150px;
+				background-color: rgb(195, 105, 105);
+				margin: 10px;
+			}
+			.box1 {
+				background-color: green;
+				align-self: flex-start;
+				flex-grow: 1;
+			}
+
+			.box2 {
+				flex-grow: 2;
+			}
+
+			.box3 {
+				color: black;
+				background-color: yellow;
+				align-self: flex-end;
+				flex-grow: 3;
+			}
+			.box4 {
+				flex-grow: 4;
+			}
+        </style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="box box1">
+				Box 1
+			</div>
+			<div class="box box2">
+				Box 2 
+			</div>
+			<div class="box box3">
+				Box 3
+			</div>
+			<div class="box box4">
+				Box 4
+			</div>
+		</div>
+	</body>
+</html>

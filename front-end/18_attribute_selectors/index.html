@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practise</title>
+    <!-- this type of selectors are called attribute selectors in CSS -->
+    <style>
+        /* applies to which ever element has data-priority attribute value as low */
+        [data-priority="low"] {
+            color: green;
+        }
+
+        /* applies to which ever element has data-priority attribute value as high */
+        [data-priority="high"] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS stuff</h1>
+
+    <h2>All tasks</h2>
+
+    <ul>
+        <li data-priority="high">Complete Porjects List</li>
+        <li data-priority="low">Complete Bio notes</li>
+    </ul>
+</body>
+</html>

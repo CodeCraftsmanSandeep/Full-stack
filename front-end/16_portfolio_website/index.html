@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio</title>
+
+		<!-- taken from https://cdnjs.com/libraries/font-awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<style>
+			body {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.about-me,
+			.skills,
+			.contact-form,
+			.projects,
+			.contact {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+				padding: 0px 30px 0px 30px;
+			}
+
+			nav ul {
+				background-color: yellowgreen;
+				border-radius: 10%;
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<ul style="list-style: none">
+				<li>
+					<a href="#about-me">About Me</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#contact-form">Contact Form</a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- header -->
+		<header style="text-align: center">
+			<h1>Rahul shinde</h1>
+			<p>Web Developer & Designer</p>
+			<img
+				src="./assets/profile-pic.webp"
+				alt="My profile picture"
+				width="400"
+				height="200"
+				style="border-radius: 50%" />
+		</header>
+
+		<section id="about-me" class="about-me">
+			<h2>About Me</h2>
+			<p>
+				I am CSE grad, doing MBA from Harward. I am looking to learn and
+				learn and learn. I love to work on projects which involves DSA.
+				All good, what about you? feel free to reach out if you want to
+				collaborate.
+			</p>
+		</section>
+
+		<section id="skills" class="skills">
+			<h2>Skills</h2>
+			<img
+				src="./assets/coding.webp"
+				alt="coding"
+				width="400"
+				height="200" />
+			<ol style="list-style: none">
+				<li>
+					<i class="fa-brands fa-html5"></i>
+					HTML
+				</li>
+				<li>
+					<i class="fa-brands fa-python"></i>
+					Python
+				</li>
+				<li>
+					<i class="fa-brands fa-java"></i>
+					Java
+				</li>
+				<li>
+					<i class="fa-brands fa-css"></i>
+					CSS
+				</li>
+			</ol>
+		</section>
+
+		<section id="projects" class="projects">
+			<h2>Projects</h2>
+
+			<article>
+				<h3>Project 1: E-commerce website developement</h3>
+				<img
+					src="./assets/software_project_1.webp"
+					alt="software project"
+					width="400"
+					height="200"
+					style="border-radius: 10%" />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Quis sequi exercitationem, voluptatum veritatis sit vitae
+					alias eos minima deserunt et qui dignissimos accusantium
+					voluptas eaque. Asperiores sit tempora modi doloribus?
+					Eveniet optio, quo nostrum ipsum labore corrupti ex
+					veritatis culpa vitae, laboriosam dolorem! Nisi accusantium
+					exercitationem doloribus quam officia, pariatur, sint beatae
+					nam deleniti sequi voluptatem harum? Alias, autem iste.
+				</p>
+			</article>
+
+			<article>
+				<h3>Project 2: Trading bot</h3>
+				<img
+					src="./assets/trading_project.jpg"
+					alt="trading project"
+					width="400"
+					height="200"
+					style="border-radius: 10%" />
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+					Quod temporibus maxime totam dolor recusandae illo,
+					excepturi quas qui voluptatum, dolorum reprehenderit
+					necessitatibus nesciunt, quibusdam ut architecto hic aut id
+					dolorem! Maxime impedit magni hic, sunt necessitatibus
+					architecto quas officiis sit voluptatibus est incidunt
+					inventore accusamus quod quis consequatur fuga obcaecati
+					molestias libero pariatur eius asperiores? Laboriosam,
+					eveniet? Atque, delectus ea.
+				</p>
+			</article>
+
+			<article>
+				<h3>Project 3: Custom CUDA kernels for LLM</h3>
+				<img
+					src="https://cdn.pixabay.com/photo/2023/05/08/08/41/ai-7977960_960_720.jpg"
+					alt="ai_image"
+					width="400"
+					height="200" />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+					placeat reprehenderit error non ipsam! Error pariatur
+					adipisci laboriosam at dignissimos aperiam ratione
+					voluptatum repellendus quaerat, facilis, nisi sapiente
+					libero quibusdam. Sint earum esse, distinctio dolorum eum
+					quibusdam eius. Impedit iusto ipsa debitis quae cumque
+					beatae veniam fugit itaque porro minus temporibus esse
+					mollitia molestias sint, voluptatibus qui vitae sed quidem.
+				</p>
+			</article>
+		</section>
+
+		<section id="contact" class="contact">
+			<h2>Contact</h2>
+			<ul style="list-style: none">
+				<li><i class="fas fa-envelope"></i> sample_email@gmail.com</li>
+				<li>
+					<i class="fa-solid fa-phone"></i>
+					+91 8718790211
+				</li>
+				<li>
+					<i class="fab fa-linkedin"></i>
+					<a href="https://linkedin.com">LinkedIn</a>
+				</li>
+			</ul>
+		</section>
+
+		<section id="contact-form" class="contact-form">
+			<h2>Contact Form</h2>
+			<form action="">
+				<div class="form-item">
+					<label for="name">Enter your name: </label>
+					<input type="text" id="name" />
+				</div>
+				<br />
+				<div class="form-item">
+					<label for="mail">Enter your email: </label>
+					<input type="email" id="mail" />
+				</div>
+				<br />
+				<div class="form-item">
+					<label for="message">Enter your message / question: </label>
+					<textarea name="message" id="message" rows="4" cols="40">
+Hello Rahul, I hope this message finds you well.
+                    </textarea>
+				</div>
+                <br>
+				<div class="form-item">
+					<label for="sponsor">Buy me a coffee?</label>
+					<select name="money" id="sponsor">
+						<option value="10">10 USD</option>
+						<option value="20">20 USD</option>
+						<option value="30">30 USD</option>
+					</select>
+				</div>
+			</form>
+            <br>
+		</section>
+
+		<footer style="background-color: yellow; width: 100%; text-align: center;"> &copy; Sandeep </footer>
+	</body>
+</html>
